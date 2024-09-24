@@ -32,6 +32,7 @@ function testarOperacoes() {
     const f2 = new Fracao(1, 3);
     console.log(`${f1} * ${f2} = ${multiplicacao(f1, f2)}`);
     console.log(`${f1} / ${f2} = ${divisao(f1, f2)}`);
+    console.log("teste")
 }
  
 testarOperacoes();
